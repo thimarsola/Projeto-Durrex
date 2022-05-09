@@ -4,9 +4,13 @@
 <link rel="stylesheet" href="<?= asset("css/style.min.css"); ?>" />
 <?= $v->end; ?>
 
-<!-- home -->
+<!-- hero -->
 <?= $v->insert('partials/home/hero') ?>
-<!-- end of home -->
+<!-- end of hero -->
+
+<!-- about   -->
+<?= $v->insert('partials/home/about') ?>
+<!-- end of about -->
 
 
 <?= $v->start("scripts"); ?>
