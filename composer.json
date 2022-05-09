@@ -1,0 +1,32 @@
+{
+	"name": "thiagomarsola/company",
+   "description": "Website develop by Goognet Digital Solution Agency for the Representante Durrex Brasil",
+	"minimum-stability": "stable",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Thiago Marsola",
+			"email": "thiago.marsola@goognet.com.br",
+			"role": "Developer",
+         "homepage": "https://goognet.com.br"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Source\\": "source"
+		},
+		"files": [
+			"source/Config.php",
+			"source/Helpers.php"
+		]
+	},
+	"require": {
+		"ext-json": "*",
+		"coffeecode/router": "1.0.8",
+		"coffeecode/datalayer": "1.1.8",
+		"coffeecode/optimizer": "2.0.2",
+		"phpmailer/phpmailer": "^6.5",
+		"league/plates": "v4.0.0-alpha",
+      "matthiasmullie/minify": "^1.3"
+	}
+}

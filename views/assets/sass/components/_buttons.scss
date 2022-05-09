@@ -1,0 +1,60 @@
+@use '../abstracts/index' as *;
+
+.btn {
+  display: inline-block !important;
+  margin: 0;
+  padding: var(--fs-200) var(--fs-600);
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transform: scale(1);
+  transition: transform 0.3s ease-in-out;
+  line-height: 1.1 !important;
+
+  font: {
+    family: var(--text-medium) !important;
+    size: 1.8rem;
+  }
+
+  text-transform: uppercase;
+
+  &:active {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+  }
+}
+
+.btn-block{
+  display: block !important;
+  width: 100%;
+}
+
+@each $color, $shade in $colors {
+  @each $prop, $value in $shade {
+    @if $value == white {
+      .btn-#{$color}-#{$prop} {
+        background-color: $value;
+        color: var(--clr-primary-500);
+        @include transition(all);
+
+        &:hover {
+          color: var(--clr-white-500);
+          background-color: var(--clr-primary-500);
+          @include transition(all);
+        }
+      }
+    }@else {
+      .btn-#{$color}-#{$prop} {
+        background-color: $value;
+        color: var(--clr-white-500);
+        @include transition(all);
+
+        &:hover {
+          color: var(--clr-white-500);
+          background-color: lighten($value, 30%);
+          @include transition(all);
+        }
+      }
+    }
+  }
+}

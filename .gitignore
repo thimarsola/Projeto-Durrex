@@ -1,0 +1,6 @@
+node_modules/**
+vendor/**
+public/css/**
+public/js/**
+public/images/**
+source/Config.php
