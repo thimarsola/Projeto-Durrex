@@ -1,5 +1,15 @@
 @use "../../abstracts/index" as *;
 
-body{
-   background: #f8f8f8;
+.hero{
+   position: relative;
+   width: 100%;
+   background:{
+      image: url("../images/background-hero.jpg");
+      size: cover;
+      position: center;
+   }
+   
+   &__header{
+      max-width: 56rem;
+   }
 }
