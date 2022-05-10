@@ -22,7 +22,8 @@ $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/vendors/jquery.js");
 $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/sticky.js");
 $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/menu.js");
 $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/scroll.js");
-//$homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/gallery.js");
+$homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/gallery.js");
+$homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/vendors/jquery.magnific-popup.js");
 $homeJs->minify(dirname(__DIR__, 1) . "/public/js/script-home.min.js");
 
 /**

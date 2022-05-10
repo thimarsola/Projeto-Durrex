@@ -16,6 +16,10 @@
 <?= $v->insert('partials/home/products') ?>
 <!-- end of products -->
 
+<!-- gallery   -->
+<?= $v->insert('partials/home/gallery') ?>
+<!-- end of gallery -->
+
 
 <?= $v->start("scripts"); ?>
 <script src="<?= asset("js/script-home.min.js"); ?>"></script>

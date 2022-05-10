@@ -8,14 +8,3 @@ $(function () {
         }
     });
 });
-
-//gallery pages
-$(function () {
-    $('.content__row__container__row__gallery').magnificPopup({
-        delegate: 'a',
-        type: 'image',
-        gallery: {
-            enabled: true
-        }
-    });
-});
