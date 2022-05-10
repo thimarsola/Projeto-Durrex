@@ -11,7 +11,7 @@ $router = new Router(site());
 $router->namespace("Source\Controllers");
 
 /**
- * Web
+ * home
  */
 $router->group(null);
 $router->get("/", "Web:home", "web.home");

@@ -12,6 +12,10 @@
 <?= $v->insert('partials/home/about') ?>
 <!-- end of about -->
 
+<!-- products   -->
+<?= $v->insert('partials/home/products') ?>
+<!-- end of products -->
+
 
 <?= $v->start("scripts"); ?>
 <script src="<?= asset("js/script-home.min.js"); ?>"></script>

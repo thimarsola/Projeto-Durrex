@@ -1,0 +1,83 @@
+{
+   "products" : [
+      {
+         "image": "imagem-bomba-dhb",
+         "title": "Bomba DHB",
+         "introduction": [
+            "A bomba homogênea e de emulsificação DHB compreende 3-5 camadas de estatores e rotadores. O alvéolo de cada estator e rotador de camada é de largo a delgado, deixe o material de tamanho assimétrico original entrar na câmara da bomba para quebrar, dispersão, redinery, homogeneização, emulsão passo a passo. São bombas homogêneas finas compostas de alta eficiência para quebra, dispersão, desagregação, composta, refinaria, homogeneização, emulsão e transmissão, também é um equipamento homogêneo composto principal em procedimentos de trabalho químico."
+         ],
+         "advantage": null,
+         "rotor": null,
+         "specifications": [
+            "Emulsionante, homogeneizante e dispersante para produção industrial.\nEmulsificante tubular de alto desempenho para produção contínua ou processamento reciclado de materiais super finos.",
+            "Sua câmara de trabalho compreende 3 estágios, 12 camadas de estatores e totadores.",
+            "Torna o tamanho de partícula estreito para uma produção sutil e estável"
+         ],
+         "catalogue": "bomba-dhb.pdf",
+         "video": "https://youtube.com/watch?v=NK-R8-KxMH0"
+      },
+      {
+         "image": "imagem-bomba-dhc",
+         "title": "Bomba DHC",
+         "introduction": [
+            "A bomba composta e homogênea DHC é composta por uma câmara composta de vários tubos e uma bomba composta.",
+            "Esta bomba compreende 2-5 camadas de estatores e rotores.",
+            "A folga da engrenagem de cada estator e rotor de camada é de larga a fina, deixe diferentes matérias-primas para compor e homogeneizar o momento de acordo com a exigência da taxa.",
+            "Este produto é amplamente utilizado na mistura de neutralização de necessidade multimaterial para compor técnicas de processo homogêneo e indústria química."
+         ],
+         "advantage": [
+            "Esses produtos podem simplificar bastante o processo de produção tradicional e atualizar a eficiência de produção e a qualidade do produto."
+         ],
+         "rotor": null,
+         "specifications": [
+            "Emulsionante, homogeneizante e dispersante para produção industrial.",
+            "Emulsificante tubular de alto desempenho para produção contínua ou processamento reciclado de materiais super finos.",
+            "Sua câmara de trabalho compreende 3 estágios, 12 camadas de estatores e totadores.",
+            "Torna o tamanho de partícula estreito para uma produção sutil e estável"
+         ],
+         "catalogue": "bomba-dhc.pdf",
+         "video": "https://youtube.com/watch?v=NK-R8-KxMH0"
+      },
+      {
+         "image": "imagem-bomba-tls",
+         "title": "Bombas TLS",
+         "introduction": [
+            "As bombas de lóbulos de rotor duplo DURREX são bombas rotativas de deslocamento positivo, desenvolvidas após décadas de pesquisa e design. A engenharia de fabricação e precisão chegaram ao nível mundial avançado.",
+            "As bombas de lóbulos de rotor duplo são produzidas de acordo com os seguintes padrões de fabricantes: Alimentos, Produtos químicos, Campos de petróleo e Tipos especiais. As peças principais e o dispositivo de vedação dos produtos são feitos de diferentes materiais e métodos de vedação de acordo com diferentes propriedades do material e processos tecnológicos. Existem 12 variedades de rotores DURREX, que podem ser configurados de forma intercambiável nas mesmas bombas."
+         ],
+         "advantage": null,
+         "rotor": null,
+         "specifications": null,
+         "catalogue": "bomba-tls.pdf",
+         "video": "https://youtube.com/watch?v=NK-R8-KxMH0"
+      },
+      {
+         "image": "imagem-bomba-lobe-pump",
+         "title": "Lobe Pump",
+         "introduction": [
+            "As bombas de lóbulos de rotor duplo DURREX são bombas rotativas de deslocamento positivo, desenvolvidas após décadas de pesquisa e design. A engenharia de fabricação e precisão chegaram ao nível mundial avançado.",
+            "As bombas de lóbulos de rotor duplo são produzidas de acordo com os seguintes padrões de fabricantes: Alimentos, Produtos químicos, Campos de petróleo e Tipos especiais. As peças principais e o dispositivo de vedação dos produtos são feitos de diferentes materiais e métodos de vedação de acordo com diferentes propriedades do material e processos tecnológicos. Existem 12 variedades de rotores DURREX, que podem ser configurados de forma intercambiável nas mesmas bombas."
+         ],
+         "advantage": null,
+         "rotor": [
+            "Impulsor único: usado para transferência média com grãos pouco grandes porque este impulsor não é fácil de danificar grãos. A escassez se alto impulso, baixa pressão, pequena capacidade, tão raramente usando.",
+            "Impulsor duplo: usado para transferir médios com grãos médios ou pequenos, com baixa taxa de danos e baixo impulso, a capacidade é menor que o tri-impulsor.",
+            "Tri-impulsor: este é comumente tipo, a capacidade e o desempenho são melhores do que outros rotores. A escassez é alta exigência para médio porque é fácil de danificar o meio de grão.",
+            "Multi-impulsor: quando a quantidade do impulsor for superior a três, a capacidade diminuirá quando o impulsor aumentar. Multi-impulsor tem alta estabilidade durante o uso, mas fácil de danificar o meio de grãos."
+         ],
+         "specifications": [
+            "A folga é mantida entre os rotores e entre os rotores e o corpo da bomba, sem atrito, longa vida útil.",
+            "Montagem e desmontagem simples, fácil de manter e limpar, forte resistência ao wering.",
+            "Alta eficiência e economia de energia, baixa taxa de falhas, vedação confiável e baixo ruído.",
+            "Materiais especiais são usados para bombear materiais com grânulos sólidos, como lodo e esgoto.",
+            "Conexão de flange, parafuso ou braçadeira pode ser usada, conforme solicitado pelo cliente.",
+            "Cabo de bombeamento de misturas de gases, fluidos e materiais sólidos.",
+            "A bomba de aquecimento e resfriamento é de estrutura embutida, com boa condutividade térmica.",
+            "Bombas móveis podem ser usadas para bombear meio enlatado, com vácuo de entrada de 0,08MPa.",
+            "Válvulas de segurança higiênicas podem ser ajustadas na cabeça da bomba se o cliente desejar."
+         ],
+         "catalogue": "lobe-pump.pdf",
+         "video": "https://youtube.com/watch?v=NK-R8-KxMH0"
+      }
+   ]
+}
