@@ -19,7 +19,7 @@ $errorCss->minify(dirname(__DIR__, 1) . "/public/css/style-error.min.css");
  */
 $homeJs = new MatthiasMullie\Minify\JS();
 $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/vendors/jquery.js");
-$homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/sticky.js");
+//$homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/sticky.js");
 $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/menu.js");
 $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/scroll.js");
 $homeJs->add(dirname(__DIR__, 1) . "/views/assets/js/theme/functions/gallery.js");

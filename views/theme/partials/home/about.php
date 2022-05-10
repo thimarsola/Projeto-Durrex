@@ -1,4 +1,4 @@
-<section id="quem-somo" class="about py-10">
+<section id="quem-somos" class="about py-10">
    <div class="container">
       
       <!-- row -->

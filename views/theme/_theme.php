@@ -23,7 +23,7 @@
 
    <?php endif; ?>
 </head>
-<body>
+<body id="home">
 <?php if(SITE['gtm'] != null): ?>
    <!-- Google Tag Manager (noscript) -->
    <noscript>
@@ -32,21 +32,33 @@
    <!-- End Google Tag Manager (noscript) -->
 <?php endif; ?>
 
+<!-- header -->
+<?= $v->insert('header') ?>
+<!-- end of header -->
+
+<!-- title -->
 <?php if($title): ?>
    <h1 class="d-none"><?= $title; ?></h1>
 <?php endif; ?>
+<!-- end of title -->
 
+<!-- whatapp -->
 <div class="whatsapp">
    <div class="whatsapp__content">
       <?= whatsapp(formatPhone(CONTACT["whatsapp"]["number"]), CONTACT["whatsapp"]["message"], '<span class="d-none">WhatsApp</span><i class="icon-whatsapp"></i>'); ?>
    </div>
 </div>
+<!-- end of whatapp -->
 
 <!-- main -->
 <main>
    <?= $v->section("content"); ?>
 </main>
 <!-- end of main -->
+
+<!-- footer -->
+<?= $v->insert('footer') ?>
+<!-- end of footer -->
 
 <!-- scripts -->
 <?= $v->section("scripts"); ?>
