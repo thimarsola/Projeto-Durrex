@@ -20,6 +20,10 @@
 <?= $v->insert('partials/home/gallery') ?>
 <!-- end of gallery -->
 
+<!-- contact   -->
+<?= $v->insert('partials/home/contact') ?>
+<!-- end of contact -->
+
 
 <?= $v->start("scripts"); ?>
 <script src="<?= asset("js/script-home.min.js"); ?>"></script>

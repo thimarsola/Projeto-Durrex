@@ -27,49 +27,9 @@
    -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-arrow-right {
+.icon-marker {
    &:before {
-      content: $icon-arrow-right;
-   }
-}
-.icon-clock {
-   &:before {
-      content: $icon-clock;
-   }
-}
-.icon-facebook {
-   &:before {
-      content: $icon-facebook;
-   }
-}
-.icon-html5 {
-   &:before {
-      content: $icon-html5;
-   }
-}
-.icon-instagram {
-   &:before {
-      content: $icon-instagram;
-   }
-}
-.icon-linkedin {
-   &:before {
-      content: $icon-linkedin;
-   }
-}
-.icon-loading {
-   &:before {
-      content: $icon-loading;
-   }
-}
-.icon-logo {
-   &:before {
-      content: $icon-logo;
-   }
-}
-.icon-mail {
-   &:before {
-      content: $icon-mail;
+      content: $icon-marker;
    }
 }
 .icon-phone {
@@ -77,14 +37,29 @@
       content: $icon-phone;
    }
 }
-.icon-star {
+.icon-facebook {
    &:before {
-      content: $icon-star;
+      content: $icon-facebook;
    }
 }
-.icon-target {
+.icon-mail {
    &:before {
-      content: $icon-target;
+      content: $icon-mail;
+   }
+}
+.icon-linkedin {
+   &:before {
+      content: $icon-linkedin;
+   }
+}
+.icon-youtube {
+   &:before {
+      content: $icon-youtube;
+   }
+}
+.icon-instagram {
+   &:before {
+      content: $icon-instagram;
    }
 }
 .icon-whatsapp {

@@ -1,9 +1,8 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" itemscope itemtype="https://schema.org/Article">
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport"
-         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
    <?= $head; ?>
@@ -36,6 +35,12 @@
 <?php if($title): ?>
    <h1 class="d-none"><?= $title; ?></h1>
 <?php endif; ?>
+
+<div class="whatsapp">
+   <div class="whatsapp__content">
+      <?= whatsapp(formatPhone(CONTACT["whatsapp"]["number"]), CONTACT["whatsapp"]["message"], '<span class="d-none">WhatsApp</span><i class="icon-whatsapp"></i>'); ?>
+   </div>
+</div>
 
 <!-- main -->
 <main>
