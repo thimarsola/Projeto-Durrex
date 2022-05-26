@@ -1,0 +1,54 @@
+@use "../../abstracts" as *;
+
+.products{
+   &__row{
+      grid-template-columns: 1fr;
+
+      &__card{
+         position: relative;
+         flex-wrap: nowrap;
+         flex-grow: 1;
+
+         &:nth-child(even){
+            .products__row__card__content{
+               order: -1;
+            }
+         }
+
+         &__image{
+            flex-basis: 40%;
+         }
+
+         &__content{
+            flex-basis: 60%;
+         }
+      }
+   }
+   
+   //breakpoint 810px
+   @include bp(810px){
+      &__row{
+         &__card{
+            flex-wrap: wrap;
+            gap: 0;
+
+            &:nth-child(even){
+               .products__row__card__content{
+                  order: initial;
+               }
+            }
+            
+            &__image{
+               flex-basis: 100%;
+               img{
+                  margin-inline: auto;
+               }
+            }
+
+            &__content{
+               flex-basis: 100%;
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,148 @@
+@use '../abstracts' as *;
+
+.header{
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index: 10;
+
+   &__navbar{
+      width: 100%;
+
+      &__section{
+         &__toggle{
+            display: none;
+
+            &:hover{
+               cursor: pointer;
+            }
+
+            span{
+               display: block;
+               width: 40px;
+               height: 4px;
+               background: var(--clr-white-500);
+               line-height: 1 !important;
+
+               &:nth-child(1){
+                  transform-origin: center;
+                  transform: translate(0px) rotate(0deg);
+                  @include transition(all);
+               }
+
+               &:nth-child(2){
+                  opacity: 1;
+                  @include transition(all);
+               }
+
+               &:nth-child(3){
+                  transform-origin: center;
+                  transform: translate(0px) rotate(0deg);
+                  @include transition(all);
+               }
+
+               &:not(:last-child){
+                  margin-bottom: 6px;
+               }
+            }
+         }
+
+         &__container{
+            &__nav{
+               ul{
+                  li{
+                     a{
+                        @include transition(color);
+
+                        &:hover{
+                           color: var(--clr-primary-500);
+                           @include transition(color);
+                        }
+                     }
+                  }
+               }
+            }
+         }
+      }
+   }
+
+   //breakpoint 810px
+   @include bp(810px){
+      &__navbar{
+         &__brand{
+            width: 22rem;   
+         }
+         
+         &__section{
+            &__toggle{
+               display: block;
+            }
+
+            &__container{
+               padding: var(--gap);
+               position: absolute;
+               top: 0;
+               right: 0;
+               height: 100vh;
+               width: 85vw;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               color: var(--clr-white-500);
+               background: var(--clr-neutral-500);
+               transform-origin: right;
+               transform: scaleX(0);
+               @include transition(all);
+
+               &__nav{
+                  ul{
+                     gap: var(--fs-500);
+                     flex-direction: column;
+                     font-size: 2.8rem;
+                     text-align: center;
+                  }
+               }
+            }
+         }
+      }
+   }
+}
+
+.header--active{
+   .header__navbar{
+      &__section{
+         &__toggle{
+            position: absolute;
+            top: 48px;
+            right: 3rem;
+            z-index: 15;
+            @include transition(all);
+
+            span{
+               background: var(--clr-white-500);
+               @include transition(all);
+
+               &:nth-child(1){
+                  transform: translate(0px,10px) rotate(45deg);
+                  @include transition(all);
+               }
+
+               &:nth-child(2){
+                  opacity: 0;
+                  @include transition(all);
+               }
+
+               &:nth-child(3){
+                  transform: translate(0px,-10px) rotate(-45deg);
+                  @include transition(all);
+               }
+            }
+         }
+
+         &__container{
+            transform: scaleX(1);
+            @include transition(all);
+         }
+      }
+   }
+}

@@ -1,0 +1,8 @@
+@use "../abstracts/mixins" as *;
+
+.divider{
+   margin-top: var(--fs-100);
+   width: var(--fs-600);
+   height: 5px;
+   background: var(--clr-primary-500);
+}
