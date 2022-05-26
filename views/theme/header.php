@@ -6,7 +6,7 @@
          <!-- brand -->
          <div class="header__navbar__brand">
             <a href="#home" title="<?= site('name'); ?>">
-               <?= picture('logo', site('name')); ?>
+               <?= picture('logo', site('name'), null, 'png'); ?>
             </a>
          </div>
          <!-- end of brand -->
@@ -26,7 +26,7 @@
                <!-- nav -->
                <nav class="header__navbar__section__container__nav">
                   <h2 class="d-none">Menu de Navegação</h2>
-                  
+
                   <ul class="menu d-flex ai-center gp-2">
                      <li><a href="#home" class="link-white-500">Home</a></li>
                      <li><a href="#quem-somos" class="link-white-500">Quem somos</a></li>
@@ -43,4 +43,5 @@
       </div>
       <!--end of navbar-->
    </div>
-</header><!--end of header-->
+</header>
+<!--end of header-->
